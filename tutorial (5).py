@@ -79,17 +79,17 @@ height = float(input("Enter your height in meters: "))
 # Calculate BMI and round the result to 2 decimal places
 bmi = round(weight / (height ** 2),2)
 
-# Determine the weight category
+# Print the BMI and determine the weight category
 if bmi < 18.5:
-    print("You are underweight.")
+    print(f"Your bmi is {bmi}, you are underweight.")
 elif bmi < 25:
-    print("You have a normal weight.")
+    print(f"Your bmi is {bmi}, you have a normal weight.")
 elif bmi < 30:
-    print("You are overweight.")
+    print(f"Your bmi is {bmi}, you are overweight.")
 elif bmi < 35:
-    print("You are obese.")
+    print(f"Your bmi is {bmi}, you are obese.")
 else:
-    print("You are extremely obese.")
+    print(f"Your bmi is {bmi}, you are extremely obese.")
 
 #................................................................#
 
@@ -102,4 +102,5 @@ elif age <= 19:
     print("Teenager")
 else:
     print("Adult")
+
 
