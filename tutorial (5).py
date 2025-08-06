@@ -76,11 +76,8 @@ else:
 weight = float(input("Enter your weight in kilograms: "))
 height = float(input("Enter your height in meters: "))
 
-# Calculate BMI
-bmi = weight / (height ** 2)
-
-# Print the BMI rounded to 2 decimal places
-print(f"Your BMI is: {bmi:.2f}")
+# Calculate BMI and round the result to 2 decimal places
+bmi = round(weight / (height ** 2),2)
 
 # Determine the weight category
 if bmi < 18.5:
@@ -105,3 +102,4 @@ elif age <= 19:
     print("Teenager")
 else:
     print("Adult")
+
