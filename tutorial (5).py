@@ -70,7 +70,33 @@ else:
 
 #................................................................#
 
-#Challenge
+# Challenge - BMI Calculator
+
+# Ask the user to enter weight and height
+weight = float(input("Enter your weight in kilograms: "))
+height = float(input("Enter your height in meters: "))
+
+# Calculate BMI
+bmi = weight / (height ** 2)
+
+# Print the BMI rounded to 2 decimal places
+print(f"Your BMI is: {bmi:.2f}")
+
+# Determine the weight category
+if bmi < 18.5:
+    print("You are underweight.")
+elif bmi < 25:
+    print("You have a normal weight.")
+elif bmi < 30:
+    print("You are overweight.")
+elif bmi < 35:
+    print("You are obese.")
+else:
+    print("You are extremely obese.")
+
+#................................................................#
+
+#Homework
 age = int(input("Enter your age: "))
 
 if age < 13:
