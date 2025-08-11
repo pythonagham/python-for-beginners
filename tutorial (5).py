@@ -1,18 +1,16 @@
-# if & else statements
-
-#Example 1:
+# if statement
 age=18
 if age>=18:
     print("You can vote!")
 
-#Example 2:
+# if-else
 age=16
 if age>=18:
     print("You can vote!")
 else:
     print("Sorry, you can't vote!")
 
-# The elif statement
+# if-elif-else
 score=85
 if score>=90:
     print("Grade: A")
@@ -31,7 +29,7 @@ if temperature>25:
 if humidity>70:
     print("It's humid.")
 
-# Nested if/else statements
+# Nested if-else statements
 age=20
 has_license=True
 if age>=18:
@@ -102,5 +100,6 @@ elif age <= 19:
     print("Teenager")
 else:
     print("Adult")
+
 
 
