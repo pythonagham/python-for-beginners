@@ -40,13 +40,13 @@ for key in dict:
 i = 1
 while i <= 5:
     print(i)
-    i += 1
+    i += 1   # Increments i by 1
 
 # Counting Down
 count = 5
 while count > 0:
     print(count)
-    count -= 1  # Decreases count by 1
+    count -= 1   # Decreases count by 1
 #................................................................#
 
 ## Loop Control Statements
@@ -130,5 +130,6 @@ fruits = ["apple", "banana", "cherry"]
 for fruit in fruits:
     print(fruit)
 #................................................................#
+
 
 
